@@ -55,6 +55,7 @@ export default function Home() {
         <p>Logged in as {session.user.name}</p>
         <Button onClick={() => authClient.signOut()}>
           sign out;
+          sign out
         </Button>
       </div>
     )
